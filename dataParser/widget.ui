@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>492</width>
+    <height>201</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>dataParser</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>471</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;7e8100fa01000000020902ac1007791709050f2b0e010001090100000000086fc6012301010d0000400000000000000000000000000000000000000000000000000000555555555555555515000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffff0f0f0000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000006fc000000c00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000cfe&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>471</width>
+     <height>189</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    selection-background-color: #b3d4fc;
+    selection-color: #000;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+QTableWidget::item:selected {
+    background-color: #82aaff;
+    color: #fff;
+}
+
+QTableWidget::item:focus {
+    background-color: #b3d4fc;
+    color: #000;
+}
+
+QTableWidget::header {
+    background-color: #e5e5e5;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    padding: 5px;
+}
+
+QTableWidget QHeaderView::section:horizontal {
+    background-color: #e5e5e5;
+    border: none;
+    border-right: 1px solid #ccc;
+    padding: 5px;
+}
+
+QTableWidget QHeaderView::section:vertical {
+    background-color: #e5e5e5;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+
+QTableWidget::horizontalScrollBar {
+    background-color: #f5f5f5;
+    height: 10px;
+}
+
+QTableWidget::horizontalScrollBar::handle {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+QTableWidget::verticalScrollBar {
+    background-color: #f5f5f5;
+    width: 10px;
+}
+
+QTableWidget::verticalScrollBar::handle {
+    background-color: #ccc;
+    border-radius: 5px;
+}</string>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>65</number>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>01</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>02</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>03</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>04</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>05</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>06</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>07</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>01</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>02</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>03</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>04</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>05</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>06</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>07</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>08</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>09</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
